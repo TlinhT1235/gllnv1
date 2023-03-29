@@ -1,16 +1,6 @@
 import os
-try:
-    from PyQt5 import QtCore, QtGui, QtWidgets
-    from PyQt5.QtGui import QPalette, QColor
-except:
-    os.system("pip install pyqt5")
-    os.system("clear")
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtGui import QPalette, QColor
-try: import requests
-except: 
-    os.system("pip install requests")
-    os.system("clear")
 import requests
 import time, random, os, json, re
 

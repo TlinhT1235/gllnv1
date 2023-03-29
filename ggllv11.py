@@ -772,11 +772,6 @@ class MainTool(QtCore.QThread):
                                 time.sleep(1)
 if __name__ == "__main__":
     import sys
-    try:
-        import qdarktheme
-    except:
-        os.system("pip install pyqtdarktheme")
-        os.system("clear")
     import qdarktheme
     mode = "light"
     app = QtWidgets.QApplication(sys.argv)

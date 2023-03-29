@@ -772,6 +772,7 @@ class MainTool(QtCore.QThread):
                                 time.sleep(1)
 if __name__ == "__main__":
     import sys
+    
     import qdarktheme
     mode = "light"
     app = QtWidgets.QApplication(sys.argv)
